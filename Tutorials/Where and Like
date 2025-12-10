@@ -1,0 +1,16 @@
+# Where Clause
+
+Select * from Parks_and_Recreation.employee_demographics;
+
+
+Select * from Parks_and_Recreation.employee_demographics where first_name = "Tom";
+
+
+Select * from Parks_and_Recreation.employee_demographics where (first_name = "Tom") or age = 44;
+
+#Like Statement and _ 
+#__ yani k space k (R__shan)
+#Like Statement yani k (selective)
+
+Select * from Parks_and_Recreation.employee_demographics where first_name Like "a___l%";
+
